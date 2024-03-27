@@ -1,0 +1,7 @@
+<div class="row p-5 mx-auto border rounded-2 shadow-sm list-row">
+  {{#each items}}
+    <div class="col-12 my-1 d-flex justify-content-center">
+      <a href={{this.path}} class="btn btn-primary text-light text-center link-btn" role="button">{{this.name}}</a>
+    </div>
+  {{/each}}
+</div>

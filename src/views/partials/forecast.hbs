@@ -1,0 +1,23 @@
+<div class="row p-5 mx-auto border rounded-2 shadow-sm forecast-row">
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <img class="img-fluid" src="{{this.iconLink}}"/>
+  </div>
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <h3 class="mb-0 text-center">{{this.weatherType}}</h3>
+  </div>
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <h4 class="mb-0 text-center">{{this.weatherInfo}}</h4>
+  </div>
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <h6 class="mb-0 text-center">Temperature: {{this.temp}}°C</h4>
+  </div>
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <h6 class="mb-0 text-center">Humidity: {{this.humidity}}%</h4>
+  </div>
+  <div class="col-12 my-2 d-flex justify-content-center">
+    <h6 class="mb-0 text-center">Pressure: {{this.pressure}} hPa</h4>
+  </div>
+  <div class="col-12 mt-3 d-flex justify-content-center">
+    <a class="btn btn-primary text-light text-center" role="button" href={{this.returnPath}}>Return to list</a>
+  </div>
+</div>
